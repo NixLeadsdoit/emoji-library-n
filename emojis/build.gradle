@@ -46,13 +46,13 @@ afterEvaluate {
     publishing {
         publications {
             release(MavenPublication) {
-                from components.release
 
                 //com.github + your profile name
                 groupId = 'com.github.NixLeadsdoit'
                 // how your project should be called
                 artifactId = 'emoji-library-n'
-                version = '1.0'
+                version = '1.2'
+                from components.release
             }
         }
     }
